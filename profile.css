@@ -1,0 +1,225 @@
+body {
+    background-color: rgb(38, 38, 38);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 15px 30px;
+}
+
+.headeritems {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    
+}
+
+.headeritems a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.headeritems a:hover {
+    color: #00aced;
+}
+.sectionone{
+    position: sticky;
+    top: 0;
+    height: 76vh;
+    z-index: 1;
+
+}
+.sectiontwo{
+    position: relative;
+    height: 130vh;
+    z-index: 2;
+    background-color: rgb(29, 29, 29);
+
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.dot {
+    position: relative;
+    height: 550px;
+    width: 550px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.avatar{
+    position: absolute;
+}
+.avatarpic{
+    width: 600px;
+}
+.name{
+    color: white;
+    position: absolute;
+    font-family: "monaco" , monospace;
+    top: 300px;
+    padding-left: 180px;
+    width: 400px;
+}
+.description{
+    color: white;
+    position: absolute;
+    font-family: "monaco" , monospace;
+    top: 300px;
+    width: 400px;
+    right: 30px;
+}
+.chatbutton {
+    position: absolute;
+    top: 400px;
+    left: 160px;
+}
+
+.chatbutton a {
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    font-family: "monaco", monospace;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.chatbutton a:hover {
+    background-color: #00aced;
+    color: black;
+    border-color: #00aced;
+}
+.title {
+    color: white;
+    font-family: "monaco", monospace;
+    font-size: 20px;
+    max-width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 80px 20px;
+  border-radius: 20px 20px 0 0;
+  margin-top: -50px;
+  z-index: 10;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.skill-card .icon img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.skill-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.skill-card p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.skill-card h4 {
+  font-size: 18px;
+  margin-bottom: 8px;   
+  color: #555;
+}
+
+.skill-card ul {
+  list-style: none;
+  padding: 0;
+  color: #333;
+  font-size: 15px;
+}
+
+.skill-card ul li {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    /* Header */
+    .headeritems {
+        gap: 20px;
+        flex-wrap: wrap;
+        font-size: 16px;
+    }
+    .headeritems a {
+        font-size: 16px;
+    }
+
+    /* Intro text */
+    .name {
+        font-size: 20px;
+        position: static;
+        padding: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .description {
+        font-size: 14px;
+        position: static;
+        padding: 0 10px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    /* Chat button alignment */
+    .chatbutton {
+        position: static;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    /* Avatar & dot adjustments to prevent overflow */
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden; /* prevents horizontal scroll */
+    }
+    .dot {
+        width: 80vw; /* scale relative to screen width */
+        max-width: 300px;
+        height: 80vw;
+        max-height: 300px;
+    }
+    .avatarpic {
+        width: 60vw; /* scale relative to screen width */
+        max-width: 200px;
+        height: auto;
+    }
+}
+
