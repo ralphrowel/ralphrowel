@@ -55,13 +55,7 @@ Currently learning and building projects using modern technologies, I’m passio
 I enjoy tackling new challenges, learning best practices, and improving my software engineering skills every day.
 
 ---
-
-### 📊 GitHub Stats
-
-![Ralph's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ralphrowel&show_icons=true&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ralphrowel&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ralphrowel&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages)
-
 ---
 
 ### 🚀 Let's Build Something Together!
