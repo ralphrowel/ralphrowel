@@ -1,10 +1,5 @@
 # Hi, I'm Ralph 👋
-
-**Aspiring Software Developer | FullStack WebDeveloper | Freelancer in Progress**
-
 ---
-
-### 🔗 Connect with Me
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ralphrowel)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com)
@@ -48,14 +43,6 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Trello](https://img.shields.io/badge/Trello-0079BF?style=for-the-badge&logo=trello&logoColor=white)
 
-### 👨‍💻 About Me
-
-I’m an **aspiring software developer** exploring both web and app development.  
-Currently learning and building projects using modern technologies, I’m passionate about creating **efficient, user-friendly, and scalable applications**.  
-I enjoy tackling new challenges, learning best practices, and improving my software engineering skills every day.
-
 ---
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ralphrowel&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages)
 ---
-
-### 🚀 Let's Build Something Together!
